@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'poppons', sans-serif;
+  box-sizing: border-box;
+}
+
+.hero {
+  background: #008f9e;
+  min-height: 100vh;
+  width: 100%;
+  color; #fff;
+  position: relative;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  padding: 20px 8%;
+}
+
+nav .logo{
+  width; 160px;
+  cursor: pointer;
+}
+
+nav ul{
+  flex: 1;
+  text-align: right;
+}
+
+nav ul li{
+  display:  inline-block;
+  list-style: none;
+  margin: 0 20px
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #003f5c;
+}
+
+button{
+  background: #007884;
+  height: 30px;
+  width: 60px;
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+
+h1 {
+  vertical-align: middle;
+  text-align: center;
+  justify-content: center;
+}
